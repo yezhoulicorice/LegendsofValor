@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="264890c5-a889-40c7-8b96-7ce663ad795b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Deal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Legends_Monsters_and_Heroes/Armory.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Legends_Monsters_and_Heroes/Dragons.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Legends_Monsters_and_Heroes/Exoskeletons.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Legends_Monsters_and_Heroes/FireSpells.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Legends_Monsters_and_Heroes/IceSpells.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Legends_Monsters_and_Heroes/LightningSpells.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Legends_Monsters_and_Heroes/Paladins.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Legends_Monsters_and_Heroes/Potions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Legends_Monsters_and_Heroes/Sorcerers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Legends_Monsters_and_Heroes/Spirits.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Legends_Monsters_and_Heroes/Warriors.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Legends_Monsters_and_Heroes/Weaponry.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Market.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MonsterMove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HeroList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeroList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoVGamerOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoVGamerOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WeaponList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WeaponList.java" afterDir="false" />
-    </list>
+    <list default="true" id="264890c5-a889-40c7-8b96-7ce663ad795b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680402217832</updated>
-      <workItem from="1680402218946" duration="33807000" />
+      <workItem from="1680402218946" duration="34197000" />
     </task>
     <task id="LOCAL-00001" summary="done map">
       <created>1680413568697</created>
@@ -85,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680413568697</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finish all except battle/win condition">
+      <created>1680487357009</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680487357009</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +77,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="done map" />
-    <option name="LAST_COMMIT_MESSAGE" value="done map" />
+    <MESSAGE value="finish all except battle/win condition" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish all except battle/win condition" />
   </component>
 </project>
