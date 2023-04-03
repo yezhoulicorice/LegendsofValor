@@ -34,7 +34,6 @@ public class WeaponList {
             System.out.println();
         }
     }
-
     public ArrayList<Weapon> getAllWeapons() {
         return allWeapons;
     }

@@ -116,9 +116,8 @@ public class Map {
         }
         System.out.println();
         System.out.println("Legend: \n" +
-                "empty slot means you may randomly encounter a battle\n" +
-                ANSI_YELLOW+"$"+ANSI_RESET+" means a market, it is safe and you can enter m/M to view market's items\n" +
-                ANSI_RED+"X"+ANSI_RESET+" means the inaccessible area, you cannot walk through it");
+                "White Area means Plain Area, Green means Bush, Yellow means Cave,\n"+
+                "Red means inaccessible area, Blue means Koulou, and Purple means Nexus");
         System.out.println();
 
     }

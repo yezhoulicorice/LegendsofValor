@@ -30,6 +30,9 @@ public class Hero extends Status {
 
     protected int defenseIncreaseInBattle = 0;
 
+    protected int row;
+    protected int col;
+
     public Hero(String name, int maxMp, int Strength, int Agility, int Dexterity, int gold, int level, HeroType heroType,
                 int curHP, int exp, int curMP, Inventory Inv, Weapon curWeapon1, Armory curArmory, int StrengthIncreaseInBattle,
                 int DexterityIncreaseInBattle, int AgilityIncreaseInBattle) {
@@ -508,5 +511,21 @@ public class Hero extends Status {
 
     public String geticon() {
         return this.icon;
+    }
+
+    public int getCol() {
+        return col;
+    }
+
+    public int getRow() {
+        return row;
+    }
+
+    public void setCol(int colnum) {
+        this.col = colnum;
+    }
+
+    public void setRow(int rownum) {
+        this.row = rownum;
     }
 }

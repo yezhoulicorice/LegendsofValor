@@ -8,7 +8,7 @@ public class HeroList {
     private final ArrayList<Hero> heroParty;
 
     private ArrayList<Integer> Nums=new ArrayList<Integer>();
-    private int partynum;
+    private int partynum=3;
 
     // read .txt to init the Heroes list
     public HeroList() throws Exception {
@@ -118,38 +118,17 @@ public class HeroList {
     public void getInput() {
         Scanner sc = new Scanner(System.in);
         display(allHeros);
-        System.out.println("You can select 1-3 heroes to join your party! How many do you like?(enter 1/2/3)");
+
         boolean loop = true;
-        do {
-            System.out.printf("input: ");
-            String Num = sc.nextLine();
-            switch (Num) {
-                case "1":
-                    partynum = 1;
-                    loop = false;
-                    break;
-                case "2":
-                    partynum = 2;
-                    loop = false;
-                    break;
-                case "3":
-                    partynum = 3;
-                    loop = false;
-                    break;
-                default:
-                    loop = true;
-                    System.out.println("Sorry you have wrong input, please enter 1-3");
-            }
-        } while (loop) ;
         System.out.println("Ok, you select " + partynum + " heroes, please select them separately");
         for (int i = 0; i < partynum; i++) {
-            System.out.println("Please select the hero to join your party!");
+            System.out.println("Please select the hero (total 3) to join your party!");
             boolean valid=true;
             int number=0;
             boolean validInput = false;
             while (!validInput) {
                 try {
-                    System.out.print("Enter a number: ");
+                    System.out.print("Select your hero for H"+(heroParty.size()+1)+" :Enter a number: ");
                     number = sc.nextInt();
                     if (number > getAllHeros().size() || number < 0 || Nums.contains(number)) {
                         System.out.println("Please enter a valid/non-repeat number!");
@@ -166,20 +145,13 @@ public class HeroList {
             heroParty.add(this.allHeros.get(number));
             Nums.add(number);
         }
+        heroParty.get(0).setIcon("H1");
+        heroParty.get(1).setIcon("H2");
+        heroParty.get(2).setIcon("H3");//set for icon for print out
         System.out.println("Congrats! you have selected "+partynum+" heroes:");
-        if (partynum>1) {
-            if (partynum > 2) {
                 System.out.printf("%s, %s, %s\n", heroParty.get(0).getName(), heroParty.get(1).getName(), heroParty.get(2).getName());
                 System.out.printf("\n\n\n");
             }
-            System.out.printf("%s, %s\n", heroParty.get(0).getName(), heroParty.get(1).getName());
-            System.out.printf("\n\n");
-        }else {
-            System.out.printf("%s\n", heroParty.get(0).getName());
-            System.out.printf("\n");
-        }
-
-    }
 
     public int getPartynum() {
         return partynum;

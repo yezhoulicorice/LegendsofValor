@@ -13,6 +13,8 @@ public class Monster extends Status{
     private isDefeat status;
     private int curHP;
     private int level;
+    private int row;
+    private int col;
 
     public Monster(String name, int level,int curHP, int damage,int defense,int dodge_chance, MonsterType type) {
         super(name, level, curHP);
@@ -103,6 +105,22 @@ public class Monster extends Status{
 
     public String geticon() {
         return icon;
+    }
+
+    public void setRow(int rownum) {
+        this.row = rownum;
+    }
+
+    public void setCol(int colnum) {
+        this.col = colnum;
+    }
+
+    public int getRow() {
+        return row;
+    }
+
+    public int getCol() {
+        return col;
     }
 }
 
